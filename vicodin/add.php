@@ -84,84 +84,85 @@
             </div>
         </div>
         <!-- BREADCRUMB AREA END -->
-    </div>
-    <div class="ltn__utilize-overlay"></div>
 
-    <div class="ltn__login-area pb-65">
-        <div class="container">
-            <form method="post" action="server.php" enctype="multipart/form-data"
-                class="ltn__form-box contact-form-box">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <!-- Left side -->
-                        <div class="account-login-inner">
-                            <h3>Add a Product</h3>
-                            <div class="row -m-4">
-                                <div class="col-lg-12 mb-3">
-                                    <!-- First input box with bottom margin -->
-                                    <label>Product Name</label>
-                                    <input type="text" name="product_name" placeholder="Email*" />
-                                </div>
-                                <div class="col-lg-12 mb-3">
-                                    <!-- Second input box with bottom margin -->
-                                    <label class="">Product Category</label><br>
-                                    <select class="form-control w-100" name="product_category">
-                                        <option value="">Product Description</option>
-                                        <option value="">Product Description</option>
-                                        <option value="">Product Description</option>
-                                        <option value="">Product Description</option>
-                                    </select>
-                                </div>
+        <div class="ltn__utilize-overlay"></div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <!-- Right side -->
-                        <div class="account-login-inner">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!-- Fifth input box with bottom margin -->
-                                    <label class="mt-2">Product Description</label>
-                                    <textarea type="text" name="product_description"
-                                        placeholder="Product Description*"></textarea>
-                                </div>
-                                <div class="col-lg-12">
-                                    <!-- Sixth input box -->
-                                    <label style="font-weight: bold;">Product Images</label><br>
-                                    <div id="dropzone"
-                                        style="border: 2px dashed #ccc; padding: 20px; cursor: pointer; position: relative;"
-                                        onmouseover="this.style.borderColor='#aaa';"
-                                        onmouseout="this.style.borderColor='#ccc';" ondrop="drop(event);"
-                                        ondragover="allowDrop(event);">
-                                        <span id="uploadText">Drag & Drop files here or
-                                            <a href="#"
-                                                onclick="document.getElementById('fileInput').click(); return false;"
-                                                style="text-decoration: underline; color: blue;">click to upload</a>
-                                        </span><br>
-                                        <input id="fileInput" type="file" name="files[]" class="form-control w-100"
-                                            style="display: none;" multiple accept="image/jpeg, image/jpg, image/png"
-                                            onchange="handleFiles(this.files);" />
+        <div class="ltn__login-area pb-65">
+            <div class="container">
+                <form method="post" action="server.php" enctype="multipart/form-data"
+                    class="ltn__form-box contact-form-box">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- Left side -->
+                            <div class="account-login-inner">
+                                <h3>Add a Product</h3>
+                                <div class="row -m-4">
+                                    <div class="col-lg-12 mb-3">
+                                        <!-- First input box with bottom margin -->
+                                        <label>Product Name</label>
+                                        <input type="text" name="product_name" placeholder="Email*" />
                                     </div>
-                                </div>
+                                    <div class="col-lg-12 mb-3">
+                                        <!-- Second input box with bottom margin -->
+                                        <label class="">Product Category</label><br>
+                                        <select class="form-control w-100" name="product_category">
+                                            <option value="">Product Description</option>
+                                            <option value="">Product Description</option>
+                                            <option value="">Product Description</option>
+                                            <option value="">Product Description</option>
+                                        </select>
+                                    </div>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- Right side -->
+                            <div class="account-login-inner">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <!-- Fifth input box with bottom margin -->
+                                        <label class="mt-2">Product Description</label>
+                                        <textarea type="text" name="product_description"
+                                            placeholder="Product Description*"></textarea>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- Sixth input box -->
+                                        <label style="font-weight: bold;">Product Images</label><br>
+                                        <div id="dropzone"
+                                            style="border: 2px dashed #ccc; padding: 20px; cursor: pointer; position: relative;"
+                                            onmouseover="this.style.borderColor='#aaa';"
+                                            onmouseout="this.style.borderColor='#ccc';" ondrop="drop(event);"
+                                            ondragover="allowDrop(event);">
+                                            <span id="uploadText">Drag & Drop files here or
+                                                <a href="#"
+                                                    onclick="document.getElementById('fileInput').click(); return false;"
+                                                    style="text-decoration: underline; color: blue;">click to upload</a>
+                                            </span><br>
+                                            <input id="fileInput" type="file" name="files[]" class="form-control w-100"
+                                                style="display: none;" multiple
+                                                accept="image/jpeg, image/jpg, image/png"
+                                                onchange="handleFiles(this.files);" />
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <br>
-                <div class="btn-wrapper mt-0 text-center ">
-                    <button class="theme-btn-1 btn btn-block text-center" type="submit" name="product_upload_data">
-                        Add Product
-                    </button>
-                </div>
-            </form>
+                    <br>
+                    <div class="btn-wrapper mt-0 text-center ">
+                        <button class="theme-btn-1 btn btn-block text-center" type="submit" name="product_upload_data">
+                            Add Product
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-    <!-- FOOTER AREA START -->
-    <?php include_once('../vicodin/footer.php'); ?>
+        <!-- FOOTER AREA START -->
+        <?php include_once('../vicodin/footer.php'); ?>
 
-    <!-- FOOTER AREA END -->
+        <!-- FOOTER AREA END -->
     </div>
     <!-- Body main wrapper end -->
     <script>
