@@ -42,7 +42,7 @@
                 <li>
                     <a href="#">Shop</a>
                     <ul class="sub-menu">
-                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="shop.php">Shop</a></li>
                         <li><a href="shop-grid.html">Shop Grid</a></li>
                         <li>
                             <a href="shop-left-sidebar.html">Shop Left sidebar</a>

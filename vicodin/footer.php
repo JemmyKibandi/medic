@@ -79,7 +79,7 @@
                     <ul>
                       <li><a href="about.html">About</a></li>
                       <li><a href="blog.html">Blog</a></li>
-                      <li><a href="shop.html">All Products</a></li>
+                      <li><a href="shop.php">All Products</a></li>
                       <li><a href="locations.html">Locations Map</a></li>
                       <li><a href="faq.html">FAQ</a></li>
                       <li><a href="contact.html">Contact us</a></li>

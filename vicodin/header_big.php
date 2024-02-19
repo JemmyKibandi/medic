@@ -74,7 +74,7 @@
                                     <li class="menu-icon">
                                         <a href="#">Shop</a>
                                         <ul>
-                                            <li><a href="shop.html">Shop</a></li>
+                                            <li><a href="shop.php">Shop</a></li>
                                             <li><a href="shop-grid.html">Shop Grid</a></li>
                                             <li>
                                                 <a href="shop-left-sidebar.html">Shop Left sidebar</a>
@@ -156,7 +156,7 @@
                                             <li>
                                                 <a href="#">Shop Pages</a>
                                                 <ul>
-                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li><a href="shop.php">Shop</a></li>
                                                     <li>
                                                         <a href="shop-left-sidebar.html">Shop Left sidebar</a>
                                                     </li>
@@ -172,7 +172,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="shop.html"><img src="img/banner/menu-banner-1.png"
+                                                <a href="shop.php"><img src="img/banner/menu-banner-1.png"
                                                         alt="#" /></a>
                                             </li>
                                         </ul>

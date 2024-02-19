@@ -283,7 +283,7 @@
                                             <li class="menu-icon">
                                                 <a href="#">Shop</a>
                                                 <ul>
-                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li><a href="shop.php">Shop</a></li>
                                                     <li><a href="shop-grid.html">Shop Grid</a></li>
                                                     <li>
                                                         <a href="shop-left-sidebar.html">Shop Left sidebar</a>
@@ -365,7 +365,7 @@
                                                     <li>
                                                         <a href="#">Shop Pages</a>
                                                         <ul>
-                                                            <li><a href="shop.html">Shop</a></li>
+                                                            <li><a href="shop.php">Shop</a></li>
                                                             <li>
                                                                 <a href="shop-left-sidebar.html">Shop Left sidebar</a>
                                                             </li>
@@ -381,7 +381,7 @@
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <a href="shop.html"><img src="img/banner/menu-banner-1.png"
+                                                        <a href="shop.php"><img src="img/banner/menu-banner-1.png"
                                                                 alt="#" /></a>
                                                     </li>
                                                 </ul>
@@ -534,7 +534,7 @@
                         <li>
                             <a href="#">Shop</a>
                             <ul class="sub-menu">
-                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="shop.php">Shop</a></li>
                                 <li><a href="shop-grid.html">Shop Grid</a></li>
                                 <li>
                                     <a href="shop-left-sidebar.html">Shop Left sidebar</a>
@@ -2730,7 +2730,7 @@
                             </div>
                             <!-- Banner Widget -->
                             <div class="widget ltn__banner-widget">
-                                <a href="shop.html"><img src="img/banner/banner-2.jpg" alt="#" /></a>
+                                <a href="shop.php"><img src="img/banner/banner-2.jpg" alt="#" /></a>
                             </div>
                         </aside>
                     </div>
@@ -2753,7 +2753,7 @@
                                 </h1>
                             </div>
                             <div class="btn-wrapper">
-                                <a class="btn btn-effect-3 btn-white" href="shop.html">Explore Products <i
+                                <a class="btn btn-effect-3 btn-white" href="shop.php">Explore Products <i
                                         class="icon-next"></i></a>
                             </div>
                         </div>
@@ -2834,7 +2834,7 @@
                                     <ul>
                                         <li><a href="about.html">About</a></li>
                                         <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="shop.html">All Products</a></li>
+                                        <li><a href="shop.php">All Products</a></li>
                                         <li><a href="locations.html">Locations Map</a></li>
                                         <li><a href="faq.html">FAQ</a></li>
                                         <li><a href="contact.html">Contact us</a></li>

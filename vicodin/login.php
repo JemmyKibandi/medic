@@ -282,7 +282,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                         <li>
                             <a href="#">Shop</a>
                             <ul class="sub-menu">
-                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="shop.php">Shop</a></li>
                                 <li><a href="shop-grid.html">Shop Grid</a></li>
                                 <li>
                                     <a href="shop-left-sidebar.html">Shop Left sidebar</a>
@@ -458,7 +458,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                 </h1>
                             </div>
                             <div class="btn-wrapper">
-                                <a class="btn btn-effect-3 btn-white" href="shop.html">Explore Products <i
+                                <a class="btn btn-effect-3 btn-white" href="shop.php">Explore Products <i
                                         class="icon-next"></i></a>
                             </div>
                         </div>
