@@ -100,9 +100,21 @@ require_once 'dbcon.php';
                                 <div class="col-md-6">
                                     <div class="ltn__shop-details-img-gallery">
                                         <div class="ltn__shop-details-large-img">
+                                            <?php
+                                $query = "SELECT * FROM medical_products WHERE product_id =$_GET[product]";
+                                $result = mysqli_query($db, $query);
+
+                                if (mysqli_num_rows($result) >= 1) {
+                                    while ($row = mysqli_fetch_assoc($result)) {
+                                        // Split the image paths by commas and select the first one
+                                        $imagePaths = explode(',', $row['product_images']);
+                                        $firstImagePath = trim($imagePaths[0]);
+                             ?>
+
                                             <div class="single-large-img">
-                                                <a href="img/product/1.png" data-rel="lightcase:myCollection">
-                                                    <img src="img/product/1.png" alt="Image">
+                                                <a href="<?php echo $firstImagePath; ?>"
+                                                    data-rel="lightcase:myCollection">
+                                                    <img src="<?php echo $firstImagePath; ?>" alt="Image">
                                                 </a>
                                             </div>
                                             <div class="single-large-img">
@@ -138,7 +150,7 @@ require_once 'dbcon.php';
                                         </div>
                                         <div class="ltn__shop-details-small-img slick-arrow-2">
                                             <div class="single-small-img">
-                                                <img src="img/product/1.png" alt="Image">
+                                                <img src="<?php echo $firstImagePath; ?>" alt="Image">
                                             </div>
                                             <div class="single-small-img">
                                                 <img src="img/product/2.png" alt="Image">
@@ -163,10 +175,6 @@ require_once 'dbcon.php';
                                 </div>
                                 <div class="col-md-6">
                                     <div class="modal-product-info shop-details-info pl-0">
-                                        <?php
-                                $query = "SELECT * FROM medical_products WHERE product_id =$_GET[product]";
-                                $result = mysqli_query($db, $query);
-                                while ($row = $result->fetch_assoc()) { ?>
 
                                         <div class="product-ratting">
                                             <ul>
@@ -257,7 +265,7 @@ require_once 'dbcon.php';
                                                 <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
                                             </ul>
                                         </div>
-                                        <?php } ?>
+                                        <?php } } ?>
                                         <hr>
                                         <!-- comment-area -->
                                         <div class="ltn__comment-area mb-30">
