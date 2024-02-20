@@ -425,7 +425,7 @@ require_once 'dbcon.php';
 
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/1.png" alt="#"></a>
+                                                <a href="product-details.php"><img src="img/product/1.png" alt="#"></a>
                                             </div>
                                             <div class="top-rated-product-info">
                                                 <div class="product-ratting">
@@ -437,7 +437,7 @@ require_once 'dbcon.php';
                                                         <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h6><a href="product-details.html">Mixel Solid Seat Cover</a></h6>
+                                                <h6><a href="product-details.php">Mixel Solid Seat Cover</a></h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>
                                                     <del>$65.00</del>
@@ -448,7 +448,7 @@ require_once 'dbcon.php';
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/2.png" alt="#"></a>
+                                                <a href="product-details.php"><img src="img/product/2.png" alt="#"></a>
                                             </div>
                                             <div class="top-rated-product-info">
                                                 <div class="product-ratting">
@@ -460,7 +460,7 @@ require_once 'dbcon.php';
                                                         <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h6><a href="product-details.html">Thermometer Gun</a></h6>
+                                                <h6><a href="product-details.php">Thermometer Gun</a></h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>
                                                     <del>$65.00</del>
@@ -471,7 +471,7 @@ require_once 'dbcon.php';
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/3.png" alt="#"></a>
+                                                <a href="product-details.php"><img src="img/product/3.png" alt="#"></a>
                                             </div>
                                             <div class="top-rated-product-info">
                                                 <div class="product-ratting">
@@ -483,7 +483,7 @@ require_once 'dbcon.php';
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h6><a href="product-details.html">Coil Spring Conversion</a></h6>
+                                                <h6><a href="product-details.php">Coil Spring Conversion</a></h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>
                                                     <del>$65.00</del>
@@ -519,7 +519,7 @@ require_once 'dbcon.php';
                     <div class="col-lg-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/7.png" alt="#"></a>
+                                <a href="product-details.php"><img src="img/product/7.png" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -557,7 +557,7 @@ require_once 'dbcon.php';
                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h2 class="product-title"><a href="product-details.html">Digital Stethoscope</a></h2>
+                                <h2 class="product-title"><a href="product-details.php">Digital Stethoscope</a></h2>
                                 <div class="product-price">
                                     <span>$149.00</span>
                                     <del>$162.00</del>
@@ -569,7 +569,7 @@ require_once 'dbcon.php';
                     <div class="col-lg-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/8.png" alt="#"></a>
+                                <a href="product-details.php"><img src="img/product/8.png" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -607,7 +607,7 @@ require_once 'dbcon.php';
                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h2 class="product-title"><a href="product-details.html">Thermometer Gun</a></h2>
+                                <h2 class="product-title"><a href="product-details.php">Thermometer Gun</a></h2>
                                 <div class="product-price">
                                     <span>$62.00</span>
                                     <del>$85.00</del>
@@ -619,7 +619,7 @@ require_once 'dbcon.php';
                     <div class="col-lg-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/9.png" alt="#"></a>
+                                <a href="product-details.php"><img src="img/product/9.png" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -657,7 +657,7 @@ require_once 'dbcon.php';
                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h2 class="product-title"><a href="product-details.html">Cosmetic Containers</a></h2>
+                                <h2 class="product-title"><a href="product-details.php">Cosmetic Containers</a></h2>
                                 <div class="product-price">
                                     <span>$75.00</span>
                                     <del>$92.00</del>
@@ -669,7 +669,7 @@ require_once 'dbcon.php';
                     <div class="col-lg-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/10.png" alt="#"></a>
+                                <a href="product-details.php"><img src="img/product/10.png" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -707,7 +707,7 @@ require_once 'dbcon.php';
                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h2 class="product-title"><a href="product-details.html">Cosmetic Containers</a></h2>
+                                <h2 class="product-title"><a href="product-details.php">Cosmetic Containers</a></h2>
                                 <div class="product-price">
                                     <span>$78.00</span>
                                     <del>$85.00</del>
@@ -719,7 +719,7 @@ require_once 'dbcon.php';
                     <div class="col-lg-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/5.png" alt="#"></a>
+                                <a href="product-details.php"><img src="img/product/5.png" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -757,7 +757,7 @@ require_once 'dbcon.php';
                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h2 class="product-title"><a href="product-details.html">Blue Hand Gloves</a></h2>
+                                <h2 class="product-title"><a href="product-details.php">Blue Hand Gloves</a></h2>
                                 <div class="product-price">
                                     <span>$150.00</span>
                                     <del>$180.00</del>
@@ -769,7 +769,7 @@ require_once 'dbcon.php';
                     <div class="col-lg-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/6.png" alt="#"></a>
+                                <a href="product-details.php"><img src="img/product/6.png" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -807,7 +807,7 @@ require_once 'dbcon.php';
                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <h2 class="product-title"><a href="product-details.html">Thermometer Gun</a></h2>
+                                <h2 class="product-title"><a href="product-details.php">Thermometer Gun</a></h2>
                                 <div class="product-price">
                                     <span>$150.00</span>
                                     <del>$180.00</del>
@@ -857,6 +857,6 @@ require_once 'dbcon.php';
 
 </body>
 
-<!-- Mirrored from index/tf/html/vicodin-preview/vicodin/product-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Feb 2024 08:54:53 GMT -->
+<!-- Mirrored from index/tf/html/vicodin-preview/vicodin/product-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Feb 2024 08:54:53 GMT -->
 
 </html>

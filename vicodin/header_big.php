@@ -83,7 +83,7 @@
                                                 <a href="shop-right-sidebar.html">Shop right sidebar</a>
                                             </li>
                                             <li>
-                                                <a href="product-details.html">Shop details </a>
+                                                <a href="product-details.php">Shop details </a>
                                             </li>
                                             <li>
                                                 <a href="#">Other Pages
@@ -165,7 +165,7 @@
                                                     </li>
                                                     <li><a href="shop-grid.html">Shop Grid</a></li>
                                                     <li>
-                                                        <a href="product-details.html">Shop details
+                                                        <a href="product-details.php">Shop details
                                                         </a>
                                                     </li>
                                                     <li><a href="cart.html">Cart</a></li>

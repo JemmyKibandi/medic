@@ -401,7 +401,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3--- col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/1.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/1.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -450,7 +450,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Antiseptic Spray</a>
+                                            <a href="product-details.php">Antiseptic Spray</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$32.00</span>
@@ -463,7 +463,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3--- col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/2.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/2.png" alt="#" /></a>
                                         <div class="product-hover-action">
                                             <ul>
                                                 <li>
@@ -507,7 +507,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Digital Stethoscope</a>
+                                            <a href="product-details.php">Digital Stethoscope</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$25.00</span>
@@ -520,7 +520,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3--- col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/3.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/3.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -569,7 +569,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Cosmetic Containers</a>
+                                            <a href="product-details.php">Cosmetic Containers</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$75.00</span>
@@ -582,7 +582,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3--- col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/4.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/4.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -631,7 +631,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Cosmetic Containers</a>
+                                            <a href="product-details.php">Cosmetic Containers</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$78.00</span>
@@ -644,7 +644,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3--- col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/5.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/5.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -693,7 +693,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Blue Hand Gloves</a>
+                                            <a href="product-details.php">Blue Hand Gloves</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$150.00</span>
@@ -706,7 +706,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3--- col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/6.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/6.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -755,7 +755,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Thermometer Gun</a>
+                                            <a href="product-details.php">Thermometer Gun</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$150.00</span>
@@ -787,7 +787,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-left">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product-2/1.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product-2/1.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -836,7 +836,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Antiseptic Spray</a>
+                                    <a href="product-details.php">Antiseptic Spray</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$32.00</span>
@@ -849,7 +849,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-left">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product-2/2.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product-2/2.png" alt="#" /></a>
                                 <div class="product-hover-action">
                                     <ul>
                                         <li>
@@ -893,7 +893,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Digital Stethoscope</a>
+                                    <a href="product-details.php">Digital Stethoscope</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$25.00</span>
@@ -906,7 +906,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-left">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product-2/3.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product-2/3.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -955,7 +955,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$75.00</span>
@@ -968,7 +968,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-left">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product-2/4.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product-2/4.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -1017,7 +1017,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$78.00</span>
@@ -1030,7 +1030,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-left">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product-2/5.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product-2/5.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -1079,7 +1079,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Blue Hand Gloves</a>
+                                    <a href="product-details.php">Blue Hand Gloves</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$150.00</span>
@@ -1092,7 +1092,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-left">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product-2/6.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product-2/6.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -1141,7 +1141,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Thermometer Gun</a>
+                                    <a href="product-details.php">Thermometer Gun</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$150.00</span>
@@ -1154,7 +1154,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-left">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product-2/7.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product-2/7.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -1203,7 +1203,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$75.00</span>
@@ -1216,7 +1216,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-left">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product-2/8.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product-2/8.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -1265,7 +1265,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$78.00</span>
@@ -1401,7 +1401,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/1.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/1.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -1450,7 +1450,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Antiseptic Spray</a>
+                                    <a href="product-details.php">Antiseptic Spray</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$32.00</span>
@@ -1463,7 +1463,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/2.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/2.png" alt="#" /></a>
                                 <div class="product-hover-action">
                                     <ul>
                                         <li>
@@ -1507,7 +1507,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Digital Stethoscope</a>
+                                    <a href="product-details.php">Digital Stethoscope</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$25.00</span>
@@ -1520,7 +1520,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/3.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/3.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -1569,7 +1569,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$75.00</span>
@@ -1582,7 +1582,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/4.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/4.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -1631,7 +1631,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$78.00</span>
@@ -1957,7 +1957,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/1.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/1.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -2006,7 +2006,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Antiseptic Spray</a>
+                                            <a href="product-details.php">Antiseptic Spray</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$32.00</span>
@@ -2019,7 +2019,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/2.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/2.png" alt="#" /></a>
                                         <div class="product-hover-action">
                                             <ul>
                                                 <li>
@@ -2063,7 +2063,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Digital Stethoscope</a>
+                                            <a href="product-details.php">Digital Stethoscope</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$25.00</span>
@@ -2076,7 +2076,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/3.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/3.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -2125,7 +2125,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Cosmetic Containers</a>
+                                            <a href="product-details.php">Cosmetic Containers</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$75.00</span>
@@ -2138,7 +2138,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/4.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/4.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -2187,7 +2187,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Cosmetic Containers</a>
+                                            <a href="product-details.php">Cosmetic Containers</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$78.00</span>
@@ -2200,7 +2200,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/5.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/5.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -2249,7 +2249,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Blue Hand Gloves</a>
+                                            <a href="product-details.php">Blue Hand Gloves</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$150.00</span>
@@ -2262,7 +2262,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/6.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/6.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -2311,7 +2311,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Thermometer Gun</a>
+                                            <a href="product-details.php">Thermometer Gun</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$150.00</span>
@@ -2324,7 +2324,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/7.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/7.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -2373,7 +2373,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Cosmetic Containers</a>
+                                            <a href="product-details.php">Cosmetic Containers</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$75.00</span>
@@ -2386,7 +2386,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                                 <div class="ltn__product-item ltn__product-item-2 text-left">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product/8.png" alt="#" /></a>
+                                        <a href="product-details.php"><img src="img/product/8.png" alt="#" /></a>
                                         <div class="product-badge">
                                             <ul>
                                                 <li class="sale-badge">New</li>
@@ -2435,7 +2435,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                             </ul>
                                         </div>
                                         <h2 class="product-title">
-                                            <a href="product-details.html">Cosmetic Containers</a>
+                                            <a href="product-details.php">Cosmetic Containers</a>
                                         </h2>
                                         <div class="product-price">
                                             <span>$78.00</span>
@@ -2467,7 +2467,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/1.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/1.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -2516,7 +2516,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Antiseptic Spray</a>
+                                    <a href="product-details.php">Antiseptic Spray</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$32.00</span>
@@ -2529,7 +2529,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/2.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/2.png" alt="#" /></a>
                                 <div class="product-hover-action">
                                     <ul>
                                         <li>
@@ -2573,7 +2573,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Digital Stethoscope</a>
+                                    <a href="product-details.php">Digital Stethoscope</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$25.00</span>
@@ -2586,7 +2586,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/3.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/3.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -2635,7 +2635,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$75.00</span>
@@ -2648,7 +2648,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/4.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/4.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -2697,7 +2697,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$78.00</span>
@@ -2710,7 +2710,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/5.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/5.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -2759,7 +2759,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Blue Hand Gloves</a>
+                                    <a href="product-details.php">Blue Hand Gloves</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$150.00</span>
@@ -2772,7 +2772,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/6.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/6.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -2821,7 +2821,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Thermometer Gun</a>
+                                    <a href="product-details.php">Thermometer Gun</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$150.00</span>
@@ -2834,7 +2834,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/7.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/7.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -2883,7 +2883,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$75.00</span>
@@ -2896,7 +2896,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="img/product/8.png" alt="#" /></a>
+                                <a href="product-details.php"><img src="img/product/8.png" alt="#" /></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -2945,7 +2945,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                                     </ul>
                                 </div>
                                 <h2 class="product-title">
-                                    <a href="product-details.html">Cosmetic Containers</a>
+                                    <a href="product-details.php">Cosmetic Containers</a>
                                 </h2>
                                 <div class="product-price">
                                     <span>$78.00</span>

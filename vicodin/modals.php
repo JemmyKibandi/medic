@@ -18,7 +18,7 @@
                                      </div>
                                      <div class="modal-product-info">
                                          <h5>
-                                             <a href="product-details.html">Digital Stethoscope</a>
+                                             <a href="product-details.php">Digital Stethoscope</a>
                                          </h5>
                                          <p class="added-cart">
                                              <i class="fa fa-check-circle"></i> Successfully
@@ -72,7 +72,7 @@
                                      </div>
                                      <div class="modal-product-info">
                                          <h5>
-                                             <a href="product-details.html">Digital Stethoscope</a>
+                                             <a href="product-details.php">Digital Stethoscope</a>
                                          </h5>
                                          <p class="added-cart">
                                              <i class="fa fa-check-circle"></i> Successfully

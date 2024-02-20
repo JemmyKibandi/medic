@@ -50,7 +50,7 @@
                         <li>
                             <a href="shop-right-sidebar.html">Shop right sidebar</a>
                         </li>
-                        <li><a href="product-details.html">Shop details </a></li>
+                        <li><a href="product-details.php">Shop details </a></li>
                         <li><a href="cart.html">Cart</a></li>
                         <li><a href="wishlist.html">Wishlist</a></li>
                         <li><a href="checkout.html">Checkout</a></li>

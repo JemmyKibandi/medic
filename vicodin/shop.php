@@ -143,7 +143,7 @@ require_once "dbcon.php"; ?>
                                             <div class="ltn__product-item ltn__product-item-3 text-center"
                                                 style="height:400px;">
                                                 <div class="product-img">
-                                                    <a href="product-details.html">
+                                                    <a href="product-details.php">
                                                         <img src="<?php echo $firstImagePath; ?>" alt="Product Image"
                                                             style="height:200px;">
                                                     </a>
@@ -234,7 +234,7 @@ require_once "dbcon.php"; ?>
                                                                                         </div>
                                                                                         <h3>
                                                                                             <a
-                                                                                                href="product-details.html"><?php echo $row['product_name']; ?></a>
+                                                                                                href="product-details.php"><?php echo $row['product_name']; ?></a>
                                                                                         </h3>
                                                                                         <div class="product-price">
                                                                                             <span>$15.00</span>
@@ -340,7 +340,7 @@ require_once "dbcon.php"; ?>
                                                     </div>
                                                     <h2 class="product-title">
                                                         <a
-                                                            href="product-details.html"><?php echo $row['product_name']; ?></a>
+                                                            href="product-details.php"><?php echo $row['product_name']; ?></a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span><?php echo $row['product_category']; ?></span>
@@ -421,7 +421,7 @@ require_once "dbcon.php"; ?>
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/1.png"
+                                                <a href="product-details.php"><img src="img/product/1.png"
                                                         alt="#" /></a>
                                             </div>
                                             <div class="top-rated-product-info">
@@ -445,7 +445,7 @@ require_once "dbcon.php"; ?>
                                                     </ul>
                                                 </div>
                                                 <h6>
-                                                    <a href="product-details.html">Mixel Solid Seat Cover</a>
+                                                    <a href="product-details.php">Mixel Solid Seat Cover</a>
                                                 </h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>
@@ -457,7 +457,7 @@ require_once "dbcon.php"; ?>
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/2.png"
+                                                <a href="product-details.php"><img src="img/product/2.png"
                                                         alt="#" /></a>
                                             </div>
                                             <div class="top-rated-product-info">
@@ -481,7 +481,7 @@ require_once "dbcon.php"; ?>
                                                     </ul>
                                                 </div>
                                                 <h6>
-                                                    <a href="product-details.html">Thermometer Gun</a>
+                                                    <a href="product-details.php">Thermometer Gun</a>
                                                 </h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>
@@ -493,7 +493,7 @@ require_once "dbcon.php"; ?>
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/3.png"
+                                                <a href="product-details.php"><img src="img/product/3.png"
                                                         alt="#" /></a>
                                             </div>
                                             <div class="top-rated-product-info">
@@ -517,7 +517,7 @@ require_once "dbcon.php"; ?>
                                                     </ul>
                                                 </div>
                                                 <h6>
-                                                    <a href="product-details.html">Coil Spring Conversion</a>
+                                                    <a href="product-details.php">Coil Spring Conversion</a>
                                                 </h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>

@@ -292,7 +292,7 @@
                                                         <a href="shop-right-sidebar.html">Shop right sidebar</a>
                                                     </li>
                                                     <li>
-                                                        <a href="product-details.html">Shop details </a>
+                                                        <a href="product-details.php">Shop details </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">Other Pages
@@ -374,7 +374,7 @@
                                                             </li>
                                                             <li><a href="shop-grid.html">Shop Grid</a></li>
                                                             <li>
-                                                                <a href="product-details.html">Shop details
+                                                                <a href="product-details.php">Shop details
                                                                 </a>
                                                             </li>
                                                             <li><a href="cart.html">Cart</a></li>
@@ -542,7 +542,7 @@
                                 <li>
                                     <a href="shop-right-sidebar.html">Shop right sidebar</a>
                                 </li>
-                                <li><a href="product-details.html">Shop details </a></li>
+                                <li><a href="product-details.php">Shop details </a></li>
                                 <li><a href="cart.html">Cart</a></li>
                                 <li><a href="wishlist.html">Wishlist</a></li>
                                 <li><a href="checkout.html">Checkout</a></li>
@@ -710,7 +710,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/1.png"
+                                                    <a href="product-details.php"><img src="img/product/1.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -760,7 +760,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Digital Stethoscope</a>
+                                                        <a href="product-details.php">Digital Stethoscope</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$149.00</span>
@@ -773,7 +773,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/2.png"
+                                                    <a href="product-details.php"><img src="img/product/2.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -818,7 +818,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$62.00</span>
@@ -831,7 +831,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/3.png"
+                                                    <a href="product-details.php"><img src="img/product/3.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -881,7 +881,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Cosmetic Containers</a>
+                                                        <a href="product-details.php">Cosmetic Containers</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$75.00</span>
@@ -894,7 +894,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/4.png"
+                                                    <a href="product-details.php"><img src="img/product/4.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -939,7 +939,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Cosmetic Containers</a>
+                                                        <a href="product-details.php">Cosmetic Containers</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$78.00</span>
@@ -952,7 +952,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/5.png"
+                                                    <a href="product-details.php"><img src="img/product/5.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1002,7 +1002,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Blue Hand Gloves</a>
+                                                        <a href="product-details.php">Blue Hand Gloves</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$150.00</span>
@@ -1015,7 +1015,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/6.png"
+                                                    <a href="product-details.php"><img src="img/product/6.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -1060,7 +1060,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$152.00</span>
@@ -1073,7 +1073,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/7.png"
+                                                    <a href="product-details.php"><img src="img/product/7.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -1118,7 +1118,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Digital Stethoscope</a>
+                                                        <a href="product-details.php">Digital Stethoscope</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$149.00</span>
@@ -1131,7 +1131,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/8.png"
+                                                    <a href="product-details.php"><img src="img/product/8.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1181,7 +1181,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$62.00</span>
@@ -1194,7 +1194,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/9.png"
+                                                    <a href="product-details.php"><img src="img/product/9.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -1239,7 +1239,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Cosmetic Containers</a>
+                                                        <a href="product-details.php">Cosmetic Containers</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$75.00</span>
@@ -1252,7 +1252,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/10.png"
+                                                    <a href="product-details.php"><img src="img/product/10.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1302,7 +1302,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Cosmetic Containers</a>
+                                                        <a href="product-details.php">Cosmetic Containers</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$78.00</span>
@@ -1315,7 +1315,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/11.png"
+                                                    <a href="product-details.php"><img src="img/product/11.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -1360,7 +1360,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Blue Hand Gloves</a>
+                                                        <a href="product-details.php">Blue Hand Gloves</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$150.00</span>
@@ -1373,7 +1373,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/12.png"
+                                                    <a href="product-details.php"><img src="img/product/12.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1423,7 +1423,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$165.00</span>
@@ -1436,7 +1436,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/1.png"
+                                                    <a href="product-details.php"><img src="img/product/1.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -1481,7 +1481,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Digital Stethoscope</a>
+                                                        <a href="product-details.php">Digital Stethoscope</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$149.00</span>
@@ -1494,7 +1494,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/2.png"
+                                                    <a href="product-details.php"><img src="img/product/2.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1544,7 +1544,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$62.00</span>
@@ -1557,7 +1557,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/3.png"
+                                                    <a href="product-details.php"><img src="img/product/3.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1607,7 +1607,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Cosmetic Containers</a>
+                                                        <a href="product-details.php">Cosmetic Containers</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$75.00</span>
@@ -1620,7 +1620,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/4.png"
+                                                    <a href="product-details.php"><img src="img/product/4.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -1665,7 +1665,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Cosmetic Containers</a>
+                                                        <a href="product-details.php">Cosmetic Containers</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$78.00</span>
@@ -1678,7 +1678,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/5.png"
+                                                    <a href="product-details.php"><img src="img/product/5.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1728,7 +1728,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Blue Hand Gloves</a>
+                                                        <a href="product-details.php">Blue Hand Gloves</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$150.00</span>
@@ -1741,7 +1741,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/7.png"
+                                                    <a href="product-details.php"><img src="img/product/7.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1791,7 +1791,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$165.00</span>
@@ -1804,7 +1804,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/12.png"
+                                                    <a href="product-details.php"><img src="img/product/12.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1854,7 +1854,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$165.00</span>
@@ -1867,7 +1867,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/1.png"
+                                                    <a href="product-details.php"><img src="img/product/1.png"
                                                             alt="#" /></a>
                                                     <div class="product-hover-action">
                                                         <ul>
@@ -1912,7 +1912,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Digital Stethoscope</a>
+                                                        <a href="product-details.php">Digital Stethoscope</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$149.00</span>
@@ -1925,7 +1925,7 @@
                                         <div class="col-xl-4 col-sm-6 col-6">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/2.png"
+                                                    <a href="product-details.php"><img src="img/product/2.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -1975,7 +1975,7 @@
                                                         </ul>
                                                     </div>
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-price">
                                                         <span>$62.00</span>
@@ -1995,7 +1995,7 @@
                                         <div class="col-lg-12">
                                             <div class="ltn__product-item ltn__product-item-3">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/1.png"
+                                                    <a href="product-details.php"><img src="img/product/1.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -2005,7 +2005,7 @@
                                                 </div>
                                                 <div class="product-info">
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-ratting">
                                                         <ul>
@@ -2065,12 +2065,12 @@
                                         <div class="col-lg-12">
                                             <div class="ltn__product-item ltn__product-item-3">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/2.png"
+                                                    <a href="product-details.php"><img src="img/product/2.png"
                                                             alt="#" /></a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Cosmetic Containers</a>
+                                                        <a href="product-details.php">Cosmetic Containers</a>
                                                     </h2>
                                                     <div class="product-ratting">
                                                         <ul>
@@ -2130,7 +2130,7 @@
                                         <div class="col-lg-12">
                                             <div class="ltn__product-item ltn__product-item-3">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/3.png"
+                                                    <a href="product-details.php"><img src="img/product/3.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -2140,7 +2140,7 @@
                                                 </div>
                                                 <div class="product-info">
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-ratting">
                                                         <ul>
@@ -2200,12 +2200,12 @@
                                         <div class="col-lg-12">
                                             <div class="ltn__product-item ltn__product-item-3">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/4.png"
+                                                    <a href="product-details.php"><img src="img/product/4.png"
                                                             alt="#" /></a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Digital Stethoscope</a>
+                                                        <a href="product-details.php">Digital Stethoscope</a>
                                                     </h2>
                                                     <div class="product-ratting">
                                                         <ul>
@@ -2265,7 +2265,7 @@
                                         <div class="col-lg-12">
                                             <div class="ltn__product-item ltn__product-item-3">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/5.png"
+                                                    <a href="product-details.php"><img src="img/product/5.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -2275,7 +2275,7 @@
                                                 </div>
                                                 <div class="product-info">
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-ratting">
                                                         <ul>
@@ -2335,7 +2335,7 @@
                                         <div class="col-lg-12">
                                             <div class="ltn__product-item ltn__product-item-3">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/6.png"
+                                                    <a href="product-details.php"><img src="img/product/6.png"
                                                             alt="#" /></a>
                                                     <div class="product-badge">
                                                         <ul>
@@ -2345,7 +2345,7 @@
                                                 </div>
                                                 <div class="product-info">
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Thermometer Gun</a>
+                                                        <a href="product-details.php">Thermometer Gun</a>
                                                     </h2>
                                                     <div class="product-ratting">
                                                         <ul>
@@ -2405,12 +2405,12 @@
                                         <div class="col-lg-12">
                                             <div class="ltn__product-item ltn__product-item-3">
                                                 <div class="product-img">
-                                                    <a href="product-details.html"><img src="img/product/4.png"
+                                                    <a href="product-details.php"><img src="img/product/4.png"
                                                             alt="#" /></a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h2 class="product-title">
-                                                        <a href="product-details.html">Digital Stethoscope</a>
+                                                        <a href="product-details.php">Digital Stethoscope</a>
                                                     </h2>
                                                     <div class="product-ratting">
                                                         <ul>
@@ -2549,7 +2549,7 @@
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/1.png"
+                                                <a href="product-details.php"><img src="img/product/1.png"
                                                         alt="#" /></a>
                                             </div>
                                             <div class="top-rated-product-info">
@@ -2573,7 +2573,7 @@
                                                     </ul>
                                                 </div>
                                                 <h6>
-                                                    <a href="product-details.html">Mixel Solid Seat Cover</a>
+                                                    <a href="product-details.php">Mixel Solid Seat Cover</a>
                                                 </h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>
@@ -2585,7 +2585,7 @@
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/2.png"
+                                                <a href="product-details.php"><img src="img/product/2.png"
                                                         alt="#" /></a>
                                             </div>
                                             <div class="top-rated-product-info">
@@ -2609,7 +2609,7 @@
                                                     </ul>
                                                 </div>
                                                 <h6>
-                                                    <a href="product-details.html">Thermometer Gun</a>
+                                                    <a href="product-details.php">Thermometer Gun</a>
                                                 </h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>
@@ -2621,7 +2621,7 @@
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.html"><img src="img/product/3.png"
+                                                <a href="product-details.php"><img src="img/product/3.png"
                                                         alt="#" /></a>
                                             </div>
                                             <div class="top-rated-product-info">
@@ -2645,7 +2645,7 @@
                                                     </ul>
                                                 </div>
                                                 <h6>
-                                                    <a href="product-details.html">Coil Spring Conversion</a>
+                                                    <a href="product-details.php">Coil Spring Conversion</a>
                                                 </h6>
                                                 <div class="product-price">
                                                     <span>$49.00</span>
@@ -3074,7 +3074,7 @@
                                             </div>
                                             <div class="modal-product-info">
                                                 <h5>
-                                                    <a href="product-details.html">Digital Stethoscope</a>
+                                                    <a href="product-details.php">Digital Stethoscope</a>
                                                 </h5>
                                                 <p class="added-cart">
                                                     <i class="fa fa-check-circle"></i> Successfully
@@ -3129,7 +3129,7 @@
                                             </div>
                                             <div class="modal-product-info">
                                                 <h5>
-                                                    <a href="product-details.html">Digital Stethoscope</a>
+                                                    <a href="product-details.php">Digital Stethoscope</a>
                                                 </h5>
                                                 <p class="added-cart">
                                                     <i class="fa fa-check-circle"></i> Successfully
