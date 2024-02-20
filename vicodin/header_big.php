@@ -13,7 +13,7 @@
                 <div class="col">
                     <div class="site-logo-wrap">
                         <div class="site-logo">
-                            <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                            <a href="index.php"><img src="img/logo.png" alt="Logo" /></a>
                         </div>
                         <div class="get-support clearfix d-none">
                             <div class="get-support-icon">
@@ -35,7 +35,7 @@
                                         <a href="#">Home</a>
                                         <ul class="sub-menu menu-pages-img-show ltn__sub-menu-col-2---">
                                             <li>
-                                                <a href="index.html">Home Style 01</a>
+                                                <a href="index.php">Home Style 01</a>
                                                 <img src="img/home-demos/home-1.jpg" alt="#" />
                                             </li>
                                             <li>

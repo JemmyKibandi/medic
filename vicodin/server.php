@@ -62,6 +62,7 @@ if (isset($_REQUEST['logout'])){
 if (isset($_REQUEST['product_upload_data'])){
     // Retrieve form data
     $productName = $_POST["product_name"];
+    $productTag = $_POST["product_tag"];
     $productCategory = $_POST["product_category"];
     $productDescription = $_POST["product_description"];
     
@@ -87,8 +88,8 @@ if (isset($_REQUEST['product_upload_data'])){
 $uploadedFilesString = implode(",", $uploadedFiles);
 
 // Prepare and bind the SQL statement
-$stmt = $db->prepare("INSERT INTO medical_products (product_name, product_category, product_desc, product_images) VALUES (?, ?, ?, ?)");
-$stmt->bind_param("ssss", $productName, $productCategory, $productDescription, $uploadedFilesString);
+$stmt = $db->prepare("INSERT INTO medical_products (product_name, product_tag, product_category, product_desc, product_images) VALUES (?, ?, ?, ?, ?)");
+$stmt->bind_param("sssss", $productName, $productTag, $productCategory, $productDescription, $uploadedFilesString);
 
     // Execute the statement
     if ($stmt->execute()) {

@@ -2,7 +2,7 @@
     <div class="ltn__utilize-menu-inner ltn__scrollbar">
         <div class="ltn__utilize-menu-head">
             <div class="site-logo">
-                <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                <a href="index.php"><img src="img/logo.png" alt="Logo" /></a>
             </div>
             <button class="ltn__utilize-close">×</button>
         </div>
@@ -17,7 +17,7 @@
                 <li>
                     <a href="#">Home</a>
                     <ul class="sub-menu">
-                        <li><a href="index.html">Home Style 01</a></li>
+                        <li><a href="index.php">Home Style 01</a></li>
                         <li><a href="index-2.html">Home Style 02</a></li>
                         <li><a href="index-3.html">Home Style 03</a></li>
                     </ul>

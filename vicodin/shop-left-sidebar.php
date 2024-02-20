@@ -104,7 +104,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="site-logo">
-                                <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                                <a href="index.php"><img src="img/logo.png" alt="Logo" /></a>
                             </div>
                         </div>
                         <div class="col header-contact-serarch-column d-none d-lg-block">
@@ -233,7 +233,7 @@
                         <div class="col header-menu-column justify-content-center">
                             <div class="sticky-logo">
                                 <div class="site-logo">
-                                    <a href="index.html"><img src="img/logo-3.png" alt="Logo" /></a>
+                                    <a href="index.php"><img src="img/logo-3.png" alt="Logo" /></a>
                                 </div>
                             </div>
                             <div class="header-menu header-menu-2">
@@ -244,7 +244,7 @@
                                                 <a href="#">Home</a>
                                                 <ul class="sub-menu menu-pages-img-show ltn__sub-menu-col-2---">
                                                     <li>
-                                                        <a href="index.html">Home Style 01</a>
+                                                        <a href="index.php">Home Style 01</a>
                                                         <img src="img/home-demos/home-1.jpg" alt="#" />
                                                     </li>
                                                     <li>
@@ -494,7 +494,7 @@
             <div class="ltn__utilize-menu-inner ltn__scrollbar">
                 <div class="ltn__utilize-menu-head">
                     <div class="site-logo">
-                        <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                        <a href="index.php"><img src="img/logo.png" alt="Logo" /></a>
                     </div>
                     <button class="ltn__utilize-close">×</button>
                 </div>
@@ -509,7 +509,7 @@
                         <li>
                             <a href="#">Home</a>
                             <ul class="sub-menu">
-                                <li><a href="index.html">Home Style 01</a></li>
+                                <li><a href="index.php">Home Style 01</a></li>
                                 <li><a href="index-2.html">Home Style 02</a></li>
                                 <li><a href="index-3.html">Home Style 03</a></li>
                             </ul>
@@ -653,7 +653,7 @@
                             <div class="ltn__breadcrumb-list">
                                 <ul>
                                     <li>
-                                        <a href="index.html"><span class="ltn__secondary-color"><i
+                                        <a href="index.php"><span class="ltn__secondary-color"><i
                                                     class="fas fa-home"></i></span>
                                             Home</a>
                                     </li>

@@ -1,4 +1,5 @@
-<?php require_once "dbcon.php"; ?>
+<?php
+require_once "dbcon.php"; ?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <!-- Mirrored from index/tf/html/vicodin-preview/vicodin/shop.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Feb 2024 08:54:51 GMT -->
@@ -70,7 +71,7 @@
                             <div class="ltn__breadcrumb-list">
                                 <ul>
                                     <li>
-                                        <a href="index.html"><span class="ltn__secondary-color"><i
+                                        <a href="index.php"><span class="ltn__secondary-color"><i
                                                     class="fas fa-home"></i></span>
                                             Home</a>
                                     </li>
@@ -99,7 +100,7 @@
                                                 <i class="fas fa-th-large"></i></a>
                                             <a data-bs-toggle="tab" href="#liton_product_list">
                                                 <i class="fas fa-list"></i></a>
-                                            <a href="add.php">
+                                            <a href="add.php" title="Add Product">
                                                 <i class="fas fa-plus"></i></a>
                                         </div>
                                     </div>
@@ -311,7 +312,9 @@
                                                                                         </div>
                                                                                         <label class="float-end mb-0"><a
                                                                                                 class="text-decoration"
-                                                                                                href="product-details.php?product=<?php echo $row['product_id']; ?>"><small>View
+                                                                                                href="product-details.php?product=<?php echo $row['product_id']; ?>"
+                                                                                                type="button"
+                                                                                                name="product"><small>View
                                                                                                     Details</small></a></label>
                                                                                     </div>
                                                                                 </div>
@@ -341,7 +344,6 @@
                                                     </h2>
                                                     <div class="product-price">
                                                         <span><?php echo $row['product_category']; ?></span>
-                                                        <del><?php echo $row['product_desc']; ?></del>
                                                     </div>
                                                 </div>
                                             </div>
@@ -409,19 +411,6 @@
                                             <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
                                     </li>
                                 </ul>
-                            </div>
-                            <!-- Price Filter Widget -->
-                            <div class="widget ltn__price-filter-widget">
-                                <h4 class="ltn__widget-title ltn__widget-title-border">
-                                    Filter by price
-                                </h4>
-                                <div class="price_filter">
-                                    <div class="price_slider_amount">
-                                        <input type="submit" value="Your range:" />
-                                        <input type="text" class="amount" name="price" placeholder="Add Your Price" />
-                                    </div>
-                                    <div class="slider-range"></div>
-                                </div>
                             </div>
                             <!-- Top Rated Product Widget -->
                             <div class="widget ltn__top-rated-product-widget">
@@ -549,7 +538,7 @@
                                     <button type="submit"><i class="fas fa-search"></i></button>
                                 </form>
                             </div>
-                            <!-- Tagcloud Widget -->
+                            <!-- Tag cloud Widget -->
                             <div class="widget ltn__tagcloud-widget">
                                 <h4 class="ltn__widget-title ltn__widget-title-border">
                                     Popular Tags
@@ -566,49 +555,6 @@
                                     <li><a href="#">Price</a></li>
                                     <li><a href="#">Sanitizer</a></li>
                                     <li><a href="#">Virus</a></li>
-                                </ul>
-                            </div>
-                            <!-- Size Widget -->
-                            <div class="widget ltn__tagcloud-widget ltn__size-widget">
-                                <h4 class="ltn__widget-title ltn__widget-title-border">
-                                    Product Size
-                                </h4>
-                                <ul>
-                                    <li><a href="#">S</a></li>
-                                    <li><a href="#">M</a></li>
-                                    <li><a href="#">L</a></li>
-                                    <li><a href="#">XL</a></li>
-                                    <li><a href="#">XXL</a></li>
-                                </ul>
-                            </div>
-                            <!-- Color Widget -->
-                            <div class="widget ltn__color-widget">
-                                <h4 class="ltn__widget-title ltn__widget-title-border">
-                                    Product Color
-                                </h4>
-                                <ul>
-                                    <li class="black"><a href="#"></a></li>
-                                    <li class="white"><a href="#"></a></li>
-                                    <li class="red"><a href="#"></a></li>
-                                    <li class="silver"><a href="#"></a></li>
-                                    <li class="gray"><a href="#"></a></li>
-                                    <li class="maroon"><a href="#"></a></li>
-                                    <li class="yellow"><a href="#"></a></li>
-                                    <li class="olive"><a href="#"></a></li>
-                                    <li class="lime"><a href="#"></a></li>
-                                    <li class="green"><a href="#"></a></li>
-                                    <li class="aqua"><a href="#"></a></li>
-                                    <li class="teal"><a href="#"></a></li>
-                                    <li class="blue"><a href="#"></a></li>
-                                    <li class="navy"><a href="#"></a></li>
-                                    <li class="fuchsia"><a href="#"></a></li>
-                                    <li class="purple"><a href="#"></a></li>
-                                    <li class="pink"><a href="#"></a></li>
-                                    <li class="nude"><a href="#"></a></li>
-                                    <li class="orange"><a href="#"></a></li>
-
-                                    <li><a href="#" class="orange"></a></li>
-                                    <li><a href="#" class="orange"></a></li>
                                 </ul>
                             </div>
                             <!-- Banner Widget -->

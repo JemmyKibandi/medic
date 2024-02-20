@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <!-- Mirrored from index/tf/html/vicodin-preview/vicodin/shop.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Feb 2024 08:54:51 GMT -->
@@ -71,7 +74,7 @@
                             <div class="ltn__breadcrumb-list">
                                 <ul>
                                     <li>
-                                        <a href="index.html"><span class="ltn__secondary-color"><i
+                                        <a href="index.php"><span class="ltn__secondary-color"><i
                                                     class="fas fa-home"></i></span>
                                             Home</a>
                                     </li>
@@ -103,13 +106,25 @@
                                         <input type="text" name="product_name" placeholder="Email*" />
                                     </div>
                                     <div class="col-lg-12 mb-3">
+                                        <label class="">Product Tag</label><br>
+                                        <select class="form-control w-100" name="product_tag">
+                                            <option value="Medical Gowns">Medical Gowns</option>
+                                            <option value="Arthroscopy">Arthroscopy</option>
+                                            <option value="Surgical Gloves">Surgical Gloves</option>
+                                            <option value="Primary Drapes">Primary Drapes</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-12 mb-3">
                                         <!-- Second input box with bottom margin -->
                                         <label class="">Product Category</label><br>
                                         <select class="form-control w-100" name="product_category">
-                                            <option value="">Product Description</option>
-                                            <option value="">Product Description</option>
-                                            <option value="">Product Description</option>
-                                            <option value="">Product Description</option>
+                                            <option value="Medical Gowns">Medical Gowns</option>
+                                            <option value="Knee Arthroscopy">Knee Arthroscopy</option>
+                                            <option value="Shoulder Arthroscopy">Shoulder Arthroscopy</option>
+                                            <option value="Set Arthroscopy">Arthroscopy Instrument Set </option>
+                                            <option value="Latex Surgical Gloves">Latex Surgical Gloves</option>
+                                            <option value="Synthetic Surgical Gloves">Synthetic Surgical Gloves</option>
+                                            <option value="Primary Drapes">Primary Drapes</option>
                                         </select>
                                     </div>
 

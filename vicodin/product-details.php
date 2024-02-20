@@ -1,5 +1,9 @@
 <?php
 session_start();
+if (!isset($_GET['product'])) {
+    header('location: shop.php');
+    exit();
+}
 require_once 'dbcon.php';
 
 ?>
@@ -75,7 +79,7 @@ require_once 'dbcon.php';
                             <div class="ltn__breadcrumb-list">
                                 <ul>
                                     <li>
-                                        <a href="index.html"><span class="ltn__secondary-color"><i
+                                        <a href="index.php"><span class="ltn__secondary-color"><i
                                                     class="fas fa-home"></i></span>
                                             Home</a>
                                     </li>
