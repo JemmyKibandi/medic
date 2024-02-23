@@ -104,7 +104,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="site-logo">
-                                <a href="index.php"><img src="img/logo.png" alt="Logo" /></a>
+                                <a href="index.php"><img src="img/Cullen Logo-02.png" style="height:100px; width:100px;" alt="Logo" /></a>
                             </div>
                         </div>
                         <div class="col header-contact-serarch-column d-none d-lg-block">
@@ -494,7 +494,7 @@
             <div class="ltn__utilize-menu-inner ltn__scrollbar">
                 <div class="ltn__utilize-menu-head">
                     <div class="site-logo">
-                        <a href="index.php"><img src="img/logo.png" alt="Logo" /></a>
+                        <a href="index.php"><img src="img/Cullen Logo-02.png" style="height:100px; width:100px;" alt="Logo" /></a>
                     </div>
                     <button class="ltn__utilize-close">×</button>
                 </div>

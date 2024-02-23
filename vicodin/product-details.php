@@ -34,11 +34,11 @@ require_once 'dbcon.php';
 <body>
     <div class="body-wrapper">
         <!-- HEADER AREA START (header-3) -->
-        <?php include_once('../vicodin/header_big.php');?>
+        <?php include_once('../vicodin/header_big.php'); ?>
 
         <!-- HEADER AREA END -->
         <!-- Utilize Mobile Menu Start -->
-        <?php include_once('../vicodin/header_mobile.php');?>
+        <?php include_once('../vicodin/header_mobile.php'); ?>
         <!-- Utilize Mobile Menu End -->
 
         <div class="ltn__utilize-overlay"></div>
@@ -50,7 +50,7 @@ require_once 'dbcon.php';
                 <div class="ms-3">
                     <h6 class="mb-0 text-success">Success Alert</h6>
                     <div><?php echo $_SESSION['succ'];
-                unset($_SESSION['succ']); ?></div>
+                                unset($_SESSION['succ']); ?></div>
                 </div>
             </div>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -63,7 +63,7 @@ require_once 'dbcon.php';
                 <div class="ms-3">
                     <h6 class="mb-0 text-danger">Error Alert</h6>
                     <div><?php echo $_SESSION['err'];
-                unset($_SESSION['err']); ?></div>
+                                unset($_SESSION['err']); ?></div>
                 </div>
             </div>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -105,15 +105,15 @@ require_once 'dbcon.php';
                                     <div class="ltn__shop-details-img-gallery">
                                         <div class="ltn__shop-details-large-img">
                                             <?php
-                                $query = "SELECT * FROM medical_products WHERE product_id =$_GET[product]";
-                                $result = mysqli_query($db, $query);
+                                            $query = "SELECT * FROM medical_products WHERE product_id =$_GET[product]";
+                                            $result = mysqli_query($db, $query);
 
-                                if (mysqli_num_rows($result) >= 1) {
-                                    while ($row = mysqli_fetch_assoc($result)) {
-                                        // Split the image paths by commas and select the first one
-                                        $imagePaths = explode(',', $row['product_images']);
-                                        $firstImagePath = trim($imagePaths[0]);
-                             ?>
+                                            if (mysqli_num_rows($result) >= 1) {
+                                                while ($row = mysqli_fetch_assoc($result)) {
+                                                    // Split the image paths by commas
+                                                    $imagePaths = explode(',', $row['product_images']);
+                                                    $firstImagePath = trim($imagePaths[0]);
+                                            ?>
 
                                             <div class="single-large-img">
                                                 <a href="<?php echo $firstImagePath; ?>"
@@ -121,59 +121,19 @@ require_once 'dbcon.php';
                                                     <img src="<?php echo $firstImagePath; ?>" alt="Image">
                                                 </a>
                                             </div>
-                                            <div class="single-large-img">
-                                                <a href="img/product/2.png" data-rel="lightcase:myCollection">
-                                                    <img src="img/product/2.png" alt="Image">
-                                                </a>
-                                            </div>
-                                            <div class="single-large-img">
-                                                <a href="img/product/3.png" data-rel="lightcase:myCollection">
-                                                    <img src="img/product/3.png" alt="Image">
-                                                </a>
-                                            </div>
-                                            <div class="single-large-img">
-                                                <a href="img/product/4.png" data-rel="lightcase:myCollection">
-                                                    <img src="img/product/4.png" alt="Image">
-                                                </a>
-                                            </div>
-                                            <div class="single-large-img">
-                                                <a href="img/product/5.png" data-rel="lightcase:myCollection">
-                                                    <img src="img/product/5.png" alt="Image">
-                                                </a>
-                                            </div>
-                                            <div class="single-large-img">
-                                                <a href="img/product/6.png" data-rel="lightcase:myCollection">
-                                                    <img src="img/product/6.png" alt="Image">
-                                                </a>
-                                            </div>
-                                            <div class="single-large-img">
-                                                <a href="img/product/7.png" data-rel="lightcase:myCollection">
-                                                    <img src="img/product/7.png" alt="Image">
-                                                </a>
-                                            </div>
+
                                         </div>
                                         <div class="ltn__shop-details-small-img slick-arrow-2">
+                                            <?php
+                                                    // Output all images including the first one
+                                                    foreach ($imagePaths as $imagePath) {
+                                                        $trimmedImagePath = trim($imagePath);
+                                            ?>
                                             <div class="single-small-img">
-                                                <img src="<?php echo $firstImagePath; ?>" alt="Image">
+                                                <img src="<?php echo $trimmedImagePath; ?>" alt="Image">
                                             </div>
-                                            <div class="single-small-img">
-                                                <img src="img/product/2.png" alt="Image">
-                                            </div>
-                                            <div class="single-small-img">
-                                                <img src="img/product/3.png" alt="Image">
-                                            </div>
-                                            <div class="single-small-img">
-                                                <img src="img/product/4.png" alt="Image">
-                                            </div>
-                                            <div class="single-small-img">
-                                                <img src="img/product/5.png" alt="Image">
-                                            </div>
-                                            <div class="single-small-img">
-                                                <img src="img/product/6.png" alt="Image">
-                                            </div>
-                                            <div class="single-small-img">
-                                                <img src="img/product/7.png" alt="Image">
-                                            </div>
+                                            <?php } ?>
+
                                         </div>
                                     </div>
                                 </div>
@@ -197,9 +157,7 @@ require_once 'dbcon.php';
                                                 <li>
                                                     <strong>Categories:</strong>
                                                     <span>
-                                                        <a href="#">face-mask</a>
-                                                        <a href="#">ppe-kit</a>
-                                                        <a href="#">safety-suits</a>
+                                                        <p><?php echo $row['product_tag']; ?></p>
                                                     </span>
                                                 </li>
                                             </ul>
@@ -214,7 +172,7 @@ require_once 'dbcon.php';
                                                 </li>
                                                 <li>
                                                     <a href="#" class="theme-btn-1 btn btn-effect-1" title="Add to Cart"
-                                                        data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
+                                                        data-bs-toggle="modal" data-bs-target="#inquire">
                                                         <i class="fas fa-shopping-cart"></i>
                                                         <span>Inquire</span>
                                                     </a>
@@ -246,7 +204,6 @@ require_once 'dbcon.php';
                                 <div class="nav">
                                     <a class="active show" data-bs-toggle="tab"
                                         href="#liton_tab_details_1_1">Description</a>
-                                    <a data-bs-toggle="tab" href="#liton_tab_details_1_2" class="">Reviews</a>
                                 </div>
                             </div>
                             <div class="tab-content">
@@ -256,161 +213,8 @@ require_once 'dbcon.php';
                                         <?php echo $row['product_desc']; ?>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="liton_tab_details_1_2">
-                                    <div class="ltn__shop-details-tab-content-inner">
-                                        <h4 class="title-2">Customer Reviews</h4>
-                                        <div class="product-ratting">
-                                            <ul>
-                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
-                                            </ul>
-                                        </div>
-                                        <?php } } ?>
-                                        <hr>
-                                        <!-- comment-area -->
-                                        <div class="ltn__comment-area mb-30">
-                                            <div class="ltn__comment-inner">
-                                                <ul>
-                                                    <li>
-                                                        <div class="ltn__comment-item clearfix">
-                                                            <div class="ltn__commenter-img">
-                                                                <img src="img/testimonial/1.jpg" alt="Image">
-                                                            </div>
-                                                            <div class="ltn__commenter-comment">
-                                                                <h6><a href="#">Adam Smit</a></h6>
-                                                                <div class="product-ratting">
-                                                                    <ul>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i
-                                                                                    class="fas fa-star-half-alt"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="far fa-star"></i></a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                                    elit. Doloribus, omnis fugit corporis iste magnam
-                                                                    ratione.</p>
-                                                                <span class="ltn__comment-reply-btn">September 3,
-                                                                    2020</span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="ltn__comment-item clearfix">
-                                                            <div class="ltn__commenter-img">
-                                                                <img src="img/testimonial/3.jpg" alt="Image">
-                                                            </div>
-                                                            <div class="ltn__commenter-comment">
-                                                                <h6><a href="#">Adam Smit</a></h6>
-                                                                <div class="product-ratting">
-                                                                    <ul>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i
-                                                                                    class="fas fa-star-half-alt"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="far fa-star"></i></a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                                    elit. Doloribus, omnis fugit corporis iste magnam
-                                                                    ratione.</p>
-                                                                <span class="ltn__comment-reply-btn">September 2,
-                                                                    2020</span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="ltn__comment-item clearfix">
-                                                            <div class="ltn__commenter-img">
-                                                                <img src="img/testimonial/2.jpg" alt="Image">
-                                                            </div>
-                                                            <div class="ltn__commenter-comment">
-                                                                <h6><a href="#">Adam Smit</a></h6>
-                                                                <div class="product-ratting">
-                                                                    <ul>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="fas fa-star"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i
-                                                                                    class="fas fa-star-half-alt"></i></a>
-                                                                        </li>
-                                                                        <li><a href="#"><i class="far fa-star"></i></a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                                    elit. Doloribus, omnis fugit corporis iste magnam
-                                                                    ratione.</p>
-                                                                <span class="ltn__comment-reply-btn">September 2,
-                                                                    2020</span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- comment-reply -->
-                                        <div class="ltn__comment-reply-area ltn__form-box mb-30">
-                                            <form action="#">
-                                                <h4 class="title-2">Add a Review</h4>
-                                                <div class="mb-30">
-                                                    <div class="add-a-review">
-                                                        <h6>Your Ratings:</h6>
-                                                        <div class="product-ratting">
-                                                            <ul>
-                                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a>
-                                                                </li>
-                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="input-item input-item-textarea ltn__custom-icon">
-                                                    <textarea placeholder="Type your comments...."></textarea>
-                                                </div>
-                                                <div class="input-item input-item-name ltn__custom-icon">
-                                                    <input type="text" placeholder="Type your name....">
-                                                </div>
-                                                <div class="input-item input-item-email ltn__custom-icon">
-                                                    <input type="email" placeholder="Type your email....">
-                                                </div>
-                                                <div class="input-item input-item-website ltn__custom-icon">
-                                                    <input type="text" name="website"
-                                                        placeholder="Type your website....">
-                                                </div>
-                                                <label class="mb-0"><input type="checkbox" name="agree"> Save my name,
-                                                    email, and website in this browser for the next time I
-                                                    comment.</label>
-                                                <div class="btn-wrapper">
-                                                    <button class="btn theme-btn-1 btn-effect-1 text-uppercase"
-                                                        type="submit">Submit</button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+                                <?php }
+                                            } ?>
                             </div>
                         </div>
                         <!-- Shop Tab End -->
@@ -419,36 +223,25 @@ require_once 'dbcon.php';
                         <aside class="sidebar ltn__shop-sidebar ltn__right-sidebar">
                             <!-- Top Rated Product Widget -->
                             <div class="widget ltn__top-rated-product-widget">
-                                <h4 class="ltn__widget-title ltn__widget-title-border">Top Rated Product</h4>
+                                <h4 class="ltn__widget-title ltn__widget-title-border">Top Rated ProductS</h4>
                                 <ul>
-                                    <li>
+                                    <?php
+                    $query = "SELECT * FROM medical_products LIMIT 4";
+                    $result = mysqli_query($db, $query);
 
-                                        <div class="top-rated-product-item clearfix">
-                                            <div class="top-rated-product-img">
-                                                <a href="product-details.php"><img src="img/product/1.png" alt="#"></a>
-                                            </div>
-                                            <div class="top-rated-product-info">
-                                                <div class="product-ratting">
-                                                    <ul>
-                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                                <h6><a href="product-details.php">Mixel Solid Seat Cover</a></h6>
-                                                <div class="product-price">
-                                                    <span>$49.00</span>
-                                                    <del>$65.00</del>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                    if (mysqli_num_rows($result) >= 1) {
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            // Split the image paths by commas and select the first one
+                            $imagePaths = explode(',', $row['product_images']);
+                            $firstImagePath = trim($imagePaths[0]);
+
+                            // Output the product HTML
+                    ?>
                                     <li>
                                         <div class="top-rated-product-item clearfix">
                                             <div class="top-rated-product-img">
-                                                <a href="product-details.php"><img src="img/product/2.png" alt="#"></a>
+                                                <a href="product-details.php"><img src="<?php echo $firstImagePath; ?>"
+                                                        alt="#"></a>
                                             </div>
                                             <div class="top-rated-product-info">
                                                 <div class="product-ratting">
@@ -460,42 +253,17 @@ require_once 'dbcon.php';
                                                         <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h6><a href="product-details.php">Thermometer Gun</a></h6>
+                                                <h6><a
+                                                        href="product-details.php"><?php echo $row['product_name']; ?></a>
+                                                </h6>
                                                 <div class="product-price">
-                                                    <span>$49.00</span>
-                                                    <del>$65.00</del>
+                                                    <span><?php echo $row['product_tag']; ?></span>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
-                                    <li>
-                                        <div class="top-rated-product-item clearfix">
-                                            <div class="top-rated-product-img">
-                                                <a href="product-details.php"><img src="img/product/3.png" alt="#"></a>
-                                            </div>
-                                            <div class="top-rated-product-info">
-                                                <div class="product-ratting">
-                                                    <ul>
-                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                        <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                                <h6><a href="product-details.php">Coil Spring Conversion</a></h6>
-                                                <div class="product-price">
-                                                    <span>$49.00</span>
-                                                    <del>$65.00</del>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                                    <?php }} ?>
                                 </ul>
-                            </div>
-                            <!-- Banner Widget -->
-                            <div class="widget ltn__banner-widget">
-                                <a href="shop.php"><img src="img/banner/2.jpg" alt="#"></a>
                             </div>
                         </aside>
                     </div>
@@ -516,10 +284,22 @@ require_once 'dbcon.php';
                 </div>
                 <div class="row ltn__related-product-slider-one-active slick-arrow-1">
                     <!-- ltn__product-item -->
+                    <?php
+                            $query = "SELECT * FROM medical_products";
+                            $result = mysqli_query($db, $query);
+
+                            if (mysqli_num_rows($result) >= 1) {
+                                while ($row = mysqli_fetch_assoc($result)) {
+                                    // Split the image paths by commas and select the first one
+                                    $imagePaths = explode(',', $row['product_images']);
+                                    $firstImagePath = trim($imagePaths[0]);
+
+                                    // Output the product HTML
+                            ?>
                     <div class="col-lg-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="product-details.php"><img src="img/product/7.png" alt="#"></a>
+                                <a href="product-details.php"><img src="<?php echo $firstImagePath; ?>" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -529,21 +309,11 @@ require_once 'dbcon.php';
                                     <ul>
                                         <li>
                                             <a href="#" title="Quick View" data-bs-toggle="modal"
-                                                data-bs-target="#quick_view_modal">
+                                                data-bs-target="#quick_view_modal<?php echo $row['product_id']; ?>">
                                                 <i class="far fa-eye"></i>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#" title="Add to Cart" data-bs-toggle="modal"
-                                                data-bs-target="#add_to_cart_modal">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Wishlist" data-bs-toggle="modal"
-                                                data-bs-target="#liton_wishlist_modal">
-                                                <i class="far fa-heart"></i></a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -565,256 +335,8 @@ require_once 'dbcon.php';
                             </div>
                         </div>
                     </div>
-                    <!-- ltn__product-item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__product-item ltn__product-item-3 text-center">
-                            <div class="product-img">
-                                <a href="product-details.php"><img src="img/product/8.png" alt="#"></a>
-                                <div class="product-badge">
-                                    <ul>
-                                        <li class="sale-badge">New</li>
-                                    </ul>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="Quick View" data-bs-toggle="modal"
-                                                data-bs-target="#quick_view_modal">
-                                                <i class="far fa-eye"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Add to Cart" data-bs-toggle="modal"
-                                                data-bs-target="#add_to_cart_modal">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Wishlist" data-bs-toggle="modal"
-                                                data-bs-target="#liton_wishlist_modal">
-                                                <i class="far fa-heart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <div class="product-ratting">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                        <li><a href="#"><i class="far fa-star"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h2 class="product-title"><a href="product-details.php">Thermometer Gun</a></h2>
-                                <div class="product-price">
-                                    <span>$62.00</span>
-                                    <del>$85.00</del>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ltn__product-item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__product-item ltn__product-item-3 text-center">
-                            <div class="product-img">
-                                <a href="product-details.php"><img src="img/product/9.png" alt="#"></a>
-                                <div class="product-badge">
-                                    <ul>
-                                        <li class="sale-badge">New</li>
-                                    </ul>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="Quick View" data-bs-toggle="modal"
-                                                data-bs-target="#quick_view_modal">
-                                                <i class="far fa-eye"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Add to Cart" data-bs-toggle="modal"
-                                                data-bs-target="#add_to_cart_modal">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Wishlist" data-bs-toggle="modal"
-                                                data-bs-target="#liton_wishlist_modal">
-                                                <i class="far fa-heart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <div class="product-ratting">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                        <li><a href="#"><i class="far fa-star"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h2 class="product-title"><a href="product-details.php">Cosmetic Containers</a></h2>
-                                <div class="product-price">
-                                    <span>$75.00</span>
-                                    <del>$92.00</del>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ltn__product-item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__product-item ltn__product-item-3 text-center">
-                            <div class="product-img">
-                                <a href="product-details.php"><img src="img/product/10.png" alt="#"></a>
-                                <div class="product-badge">
-                                    <ul>
-                                        <li class="sale-badge">New</li>
-                                    </ul>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="Quick View" data-bs-toggle="modal"
-                                                data-bs-target="#quick_view_modal">
-                                                <i class="far fa-eye"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Add to Cart" data-bs-toggle="modal"
-                                                data-bs-target="#add_to_cart_modal">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Wishlist" data-bs-toggle="modal"
-                                                data-bs-target="#liton_wishlist_modal">
-                                                <i class="far fa-heart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <div class="product-ratting">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                        <li><a href="#"><i class="far fa-star"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h2 class="product-title"><a href="product-details.php">Cosmetic Containers</a></h2>
-                                <div class="product-price">
-                                    <span>$78.00</span>
-                                    <del>$85.00</del>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ltn__product-item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__product-item ltn__product-item-3 text-center">
-                            <div class="product-img">
-                                <a href="product-details.php"><img src="img/product/5.png" alt="#"></a>
-                                <div class="product-badge">
-                                    <ul>
-                                        <li class="sale-badge">New</li>
-                                    </ul>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="Quick View" data-bs-toggle="modal"
-                                                data-bs-target="#quick_view_modal">
-                                                <i class="far fa-eye"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Add to Cart" data-bs-toggle="modal"
-                                                data-bs-target="#add_to_cart_modal">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Wishlist" data-bs-toggle="modal"
-                                                data-bs-target="#liton_wishlist_modal">
-                                                <i class="far fa-heart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <div class="product-ratting">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                        <li><a href="#"><i class="far fa-star"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h2 class="product-title"><a href="product-details.php">Blue Hand Gloves</a></h2>
-                                <div class="product-price">
-                                    <span>$150.00</span>
-                                    <del>$180.00</del>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ltn__product-item -->
-                    <div class="col-lg-12">
-                        <div class="ltn__product-item ltn__product-item-3 text-center">
-                            <div class="product-img">
-                                <a href="product-details.php"><img src="img/product/6.png" alt="#"></a>
-                                <div class="product-badge">
-                                    <ul>
-                                        <li class="sale-badge">New</li>
-                                    </ul>
-                                </div>
-                                <div class="product-hover-action">
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="Quick View" data-bs-toggle="modal"
-                                                data-bs-target="#quick_view_modal">
-                                                <i class="far fa-eye"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Add to Cart" data-bs-toggle="modal"
-                                                data-bs-target="#add_to_cart_modal">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Wishlist" data-bs-toggle="modal"
-                                                data-bs-target="#liton_wishlist_modal">
-                                                <i class="far fa-heart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <div class="product-ratting">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                        <li><a href="#"><i class="far fa-star"></i></a></li>
-                                    </ul>
-                                </div>
-                                <h2 class="product-title"><a href="product-details.php">Thermometer Gun</a></h2>
-                                <div class="product-price">
-                                    <span>$150.00</span>
-                                    <del>$180.00</del>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php }
+                            } ?>
                     <!--  -->
                 </div>
             </div>

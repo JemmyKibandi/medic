@@ -160,18 +160,7 @@ require_once "dbcon.php"; ?>
                                                                     <i class="far fa-eye"></i>
                                                                 </a>
                                                             </li>
-                                                            <li>
-                                                                <a href="#" title="Add to Cart" data-bs-toggle="modal"
-                                                                    data-bs-target="#add_to_cart_modal">
-                                                                    <i class="fas fa-shopping-cart"></i>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#" title="Wishlist" data-bs-toggle="modal"
-                                                                    data-bs-target="#liton_wishlist_modal">
-                                                                    <i class="far fa-heart"></i>
-                                                                </a>
-                                                            </li>
+
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -236,10 +225,7 @@ require_once "dbcon.php"; ?>
                                                                                             <a
                                                                                                 href="product-details.php"><?php echo $row['product_name']; ?></a>
                                                                                         </h3>
-                                                                                        <div class="product-price">
-                                                                                            <span>$15.00</span>
-                                                                                            <del>$25.00</del>
-                                                                                        </div>
+
                                                                                         <hr />
                                                                                         <div
                                                                                             class="modal-product-brief">
@@ -328,16 +314,6 @@ require_once "dbcon.php"; ?>
                                                 </div>
                                                 <!-- MODAL AREA END -->
                                                 <div class="product-info">
-                                                    <div class="product-ratting">
-                                                        <ul>
-                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a>
-                                                            </li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
                                                     <h2 class="product-title">
                                                         <a
                                                             href="product-details.php"><?php echo $row['product_name']; ?></a>
