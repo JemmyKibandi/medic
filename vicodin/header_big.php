@@ -13,7 +13,8 @@
                 <div class="col">
                     <div class="site-logo-wrap">
                         <div class="site-logo">
-                            <a href="index.php"><img src="img/Cullen Logo-02.png" style="height:100px; width:100px;" alt="Logo" /></a>
+                            <a href="index.php"><img src="img/Cullen Logo-02.png" style="height:100px; width:100px;"
+                                    alt="Logo" /></a>
                         </div>
                         <div class="get-support clearfix d-none">
                             <div class="get-support-icon">
@@ -40,32 +41,24 @@
                                     <li class="menu-icon">
                                         <a href="#">Products</a>
                                         <ul>
-                                            <li><a href="shop.php">Shop</a></li>
-                                            <li><a href="shop-grid.html">Shop Grid</a></li>
+                                            <li><a href="shop.php">Opthalamics</a></li>
+                                            <li><a href="shop-grid.html">Sutures</a></li>
                                             <li>
-                                                <a href="shop-left-sidebar.html">Shop Left sidebar</a>
+                                                <a href="shop-left-sidebar.html">MicroSurgical Knives</a>
                                             </li>
                                             <li>
-                                                <a href="shop-right-sidebar.html">Shop right sidebar</a>
+                                                <a href="shop-right-sidebar.html">Gloves</a>
                                             </li>
                                             <li>
-                                                <a href="product-details.php">Shop details </a>
+                                                <a href="product-details.php">Surgical Tapes </a>
                                             </li>
                                             <li>
-                                                <a href="#">Other Pages
-                                                    <span class="float-right">>></span></a>
-                                                <ul>
-                                                    <li><a href="cart.html">Cart</a></li>
-                                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                    <li>
-                                                        <a href="order-tracking.html">Order Tracking</a>
-                                                    </li>
-                                                    <li><a href="account.html">My Account</a></li>
-                                                    <li><a href="login.html">Sign in</a></li>
-                                                    <li><a href="register.html">Register</a></li>
-                                                </ul>
+                                                <a href="product-details.php">Eye Drapes </a>
                                             </li>
+                                            <li>
+                                                <a href="product-details.php">Eye Pads</a>
+                                            </li>
+
                                         </ul>
                                     </li>
                                     <li class="menu-icon">
@@ -97,7 +90,7 @@
                         </div>
                     </div>
                     <!-- user-menu -->
-                    <div class="ltn__drop-menu user-menu">
+                    <!-- <div class="ltn__drop-menu user-menu">
                         <ul>
                             <li>
                                 <a href="#"><i class="icon-user"></i></a>
@@ -109,14 +102,9 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                     <!-- mini-cart -->
-                    <div class="mini-cart-icon">
-                        <a href="#ltn__utilize-cart-menu" class="ltn__utilize-toggle">
-                            <i class="icon-shopping-cart"></i>
-                            <sup>2</sup>
-                        </a>
-                    </div>
+
                     <!-- mini-cart -->
                     <!-- Mobile Menu Button -->
                     <div class="mobile-menu-toggle d-xl-none">

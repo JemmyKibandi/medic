@@ -2,7 +2,8 @@
     <div class="ltn__utilize-menu-inner ltn__scrollbar">
         <div class="ltn__utilize-menu-head">
             <div class="site-logo">
-                <a href="index.php"><img src="img/Cullen Logo-02.png" style="height:100px; width:100px;" alt="Logo" /></a>
+                <a href="index.php"><img src="img/Cullen Logo-02.png" style="height:100px; width:100px;"
+                        alt="Logo" /></a>
             </div>
             <button class="ltn__utilize-close">×</button>
         </div>
@@ -24,22 +25,24 @@
                 <li>
                     <a href="#">Products</a>
                     <ul class="sub-menu">
-                        <li><a href="shop.php">Shop</a></li>
-                        <li><a href="shop-grid.html">Shop Grid</a></li>
+                        <li><a href="shop.php">Opthalamics</a></li>
+                        <li><a href="shop-grid.html">Sutures</a></li>
                         <li>
-                            <a href="shop-left-sidebar.html">Shop Left sidebar</a>
+                            <a href="shop-left-sidebar.html">MicroSurgical Knives</a>
                         </li>
                         <li>
-                            <a href="shop-right-sidebar.html">Shop right sidebar</a>
+                            <a href="shop-right-sidebar.html">Gloves</a>
                         </li>
-                        <li><a href="product-details.php">Shop details </a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li><a href="wishlist.html">Wishlist</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
-                        <li><a href="order-tracking.html">Order Tracking</a></li>
-                        <li><a href="account.html">My Account</a></li>
-                        <li><a href="login.html">Sign in</a></li>
-                        <li><a href="register.html">Register</a></li>
+                        <li>
+                            <a href="product-details.php">Surgical Tapes </a>
+                        </li>
+                        <li>
+                            <a href="product-details.php">Eye Drapes </a>
+                        </li>
+                        <li>
+                            <a href="product-details.php">Eye Pads</a>
+                        </li>
+
                     </ul>
                 </li>
                 <li>
