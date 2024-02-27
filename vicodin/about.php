@@ -16,7 +16,6 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-<!-- Mirrored from index/tf/html/vicodin-preview/vicodin/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Feb 2024 08:53:30 GMT -->
 
 <head>
     <meta charset="utf-8" />
