@@ -18,7 +18,6 @@ require_once "dbcon.php";
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-<!-- Mirrored from index/tf/html/vicodin-preview/vicodin/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Feb 2024 08:53:30 GMT -->
 
 <head>
     <meta charset="utf-8" />
@@ -29,7 +28,7 @@ require_once "dbcon.php";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Place favicon.png in the root directory -->
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/Cullen Logo-02.png" type="image/x-icon" />
     <!-- Font Icons css -->
     <link rel="stylesheet" href="css/font-icons.css" />
     <!-- plugins css -->
@@ -74,8 +73,12 @@ require_once "dbcon.php";
                                             </h1>
                                             <div class="slide-brief animated">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit, sed do eiusmod tempor incididunt ut labore.
+                                                    Cullen Health Sciences shines as a premier distributor of
+                                                    cutting-edge medical products, specializing in fields like General
+                                                    Surgery, Ophthalmology, and Orthopaedic Soft Goods. We proudly
+                                                    represent global leaders, offering exclusive service licenses with
+                                                    top brands. Elevate your healthcare experience with our innovative
+                                                    solutions, setting new standards in medical excellence..
                                                 </p>
                                             </div>
                                             <div class="btn-wrapper animated">
@@ -113,8 +116,12 @@ require_once "dbcon.php";
                                             </h1>
                                             <div class="slide-brief animated">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit, sed do eiusmod tempor incididunt ut labore.
+                                                    Cullen Health Sciences shines as a premier distributor of
+                                                    cutting-edge medical products, specializing in fields like General
+                                                    Surgery, Ophthalmology, and Orthopaedic Soft Goods. We proudly
+                                                    represent global leaders, offering exclusive service licenses with
+                                                    top brands. Elevate your healthcare experience with our innovative
+                                                    solutions, setting new standards in medical excellence..
                                                 </p>
                                             </div>
                                             <div class="btn-wrapper animated">
@@ -145,8 +152,12 @@ require_once "dbcon.php";
                                             </h1>
                                             <div class="slide-brief animated">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit, sed do eiusmod tempor incididunt ut labore.
+                                                    Cullen Health Sciences shines as a premier distributor of
+                                                    cutting-edge medical products, specializing in fields like General
+                                                    Surgery, Ophthalmology, and Orthopaedic Soft Goods. We proudly
+                                                    represent global leaders, offering exclusive service licenses with
+                                                    top brands. Elevate your healthcare experience with our innovative
+                                                    solutions, setting new standards in medical excellence..
                                                 </p>
                                             </div>
                                             <div class="btn-wrapper animated">

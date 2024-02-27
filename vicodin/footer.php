@@ -76,35 +76,73 @@
                           <h4 class="footer-title">Company</h4>
                           <div class="footer-menu">
                               <ul>
-                                  <li><a href="about.html">About</a></li>
+                                  <li><a href="about.php">About</a></li>
                                   <li><a href="shop.php">All Products</a></li>
-                                  <li><a href="about.html">Terms & Conditions</a></li>
-                                  <li><a href="about.html">Promotional Offers</a></li>
-                                  <li><a href="about.html">Terms & Conditions</a></li>
-                                  <li><a href="about.html">Promotional Offers</a></li>
+                                  <li><a href="about.php">Terms & Conditions</a></li>
+                                  <li><a href="about.php">Promotional Offers</a></li>
+                                  <li><a href="about.php">Terms & Conditions</a></li>
+                                  <li><a href="about.php">Promotional Offers</a></li>
                               </ul>
                           </div>
                       </div>
                   </div>
                   <div class="col-xl-3 col-md-6 col-sm-12 col-12">
-                      <div class="footer-widget footer-newsletter-widget">
-                          <h4 class="footer-title">Newsletter</h4>
-                          <p>
-                              Subscribe to our weekly Newsletter and receive updates via
-                              email.
-                          </p>
-                          <div class="footer-newsletter">
-                              <form action="#">
-                                  <input type="email" name="email" placeholder="Email*" />
-                                  <div class="btn-wrapper">
-                                      <button class="theme-btn-1 btn" type="submit">
-                                          <i class="fas fa-location-arrow"></i>
-                                      </button>
+                      <div class="footer-widget footer-Contact Us-widget">
+                          <h4 class="footer-title">Contact Us</h4>
+                          <!-- CONTACT MESSAGE AREA START -->
+                          <div class="footer-Contact Us">
+                              <div class="ltn__contact-message-area mb-120 mb--100">
+                                  <div class="">
+                                      <form id="contact-form"
+                                          action="https://index/tf/html/vicodin-preview/vicodin/mail.php" method="post">
+                                          <div class="row">
+                                              <div class="">
+                                                  <div class="input-item">
+                                                      <input type="text" name="full-name" placeholder="Full Name"
+                                                          style="display: inline-block; height: auto; max-height: 150px; background-color: transparent; border: none; border-bottom: 1px solid white; color: white;" />
+                                                  </div>
+                                              </div>
+                                              <div class="">
+                                                  <div class="input-item">
+                                                      <input type="email" name="email-address"
+                                                          placeholder="Email Address"
+                                                          style="display: inline-block; height: auto; max-height: 150px; background-color: transparent; border: none; border-bottom: 1px solid white; color: white;" />
+
+                                                  </div>
+                                              </div><br><br>
+                                              <div class="">
+                                                  <div class="input-item">
+                                                      <input type="text" name="company-name" placeholder="Company Name"
+                                                          style="display: inline-block; height: auto; max-height: 150px; background-color: transparent; border: none; border-bottom: 1px solid white; color: white;" />
+
+                                                  </div>
+                                              </div>
+                                              <div class="">
+                                                  <div class="input-item">
+                                                      <input type="text" name="phone-number" placeholder="Phone Number"
+                                                          style="display: inline-block; height: auto; max-height: 150px; background-color: transparent; border: none; border-bottom: 1px solid white; color: white;" />
+                                                  </div>
+                                              </div>
+                                              <div class="">
+                                                  <div class="input-item">
+                                                      <input type="text" name="phone-number" placeholder="Message"
+                                                          style="display: inline-block; height: auto; max-height: 150px; background-color: transparent; border: none; border-bottom: 1px solid white; color: white;" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div style="text-align: right;">
+                                              <button
+                                                  style="border-radius: 20px; background-color: #4CAF50; color: white; padding: 10px 20px; border: none; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; transition-duration: 0.4s; cursor: pointer; box-shadow: 0 8px 16px 0 rgba(76, 175, 80, 0.2), 0 6px 20px 0 rgba(76, 175, 80, 0.19); float: right;">
+                                                  Send Message
+                                              </button>
+                                          </div>
+
+                                      </form>
                                   </div>
-                              </form>
+                              </div>
+
                           </div>
-                          <h5 class="mt-30">We Accept</h5>
-                          <img src="img/icons/payment-4.png" alt="Payment Image" />
+                          <!-- CONTACT MESSAGE AREA END -->
                       </div>
                   </div>
               </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Place favicon.png in the root directory -->
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/Cullen Logo-02.png" type="image/x-icon" />
     <!-- Font Icons css -->
     <link rel="stylesheet" href="css/font-icons.css" />
     <!-- plugins css -->
@@ -260,7 +260,7 @@
                                             <li class="menu-icon">
                                                 <a href="#">About</a>
                                                 <ul>
-                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="about.php">About</a></li>
                                                     <li><a href="service.html">Services</a></li>
                                                     <li>
                                                         <a href="service-details.html">Service Details</a>
@@ -517,7 +517,7 @@
                         <li>
                             <a href="#">About</a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="about.php">About</a></li>
                                 <li><a href="service.html">Services</a></li>
                                 <li><a href="service-details.html">Service Details</a></li>
                                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -569,7 +569,7 @@
                         <li>
                             <a href="#">Pages</a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="about.php">About</a></li>
                                 <li><a href="service.html">Services</a></li>
                                 <li><a href="service-details.html">Service Details</a></li>
                                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -2832,7 +2832,7 @@
                                 <h4 class="footer-title">Company</h4>
                                 <div class="footer-menu">
                                     <ul>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="about.php">About</a></li>
                                         <li><a href="blog.html">Blog</a></li>
                                         <li><a href="shop.php">All Products</a></li>
                                         <li><a href="locations.html">Locations Map</a></li>
@@ -2851,8 +2851,8 @@
                                         <li><a href="wishlist.html">Wish List</a></li>
                                         <li><a href="login.html">Login</a></li>
                                         <li><a href="account.html">My account</a></li>
-                                        <li><a href="about.html">Terms & Conditions</a></li>
-                                        <li><a href="about.html">Promotional Offers</a></li>
+                                        <li><a href="about.php">Terms & Conditions</a></li>
+                                        <li><a href="about.php">Promotional Offers</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -2873,13 +2873,13 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6 col-sm-12 col-12">
-                            <div class="footer-widget footer-newsletter-widget">
-                                <h4 class="footer-title">Newsletter</h4>
+                            <div class="footer-widget footer-Contact Us-widget">
+                                <h4 class="footer-title">Contact Us</h4>
                                 <p>
-                                    Subscribe to our weekly Newsletter and receive updates via
+                                    Subscribe to our weekly Contact Us and receive updates via
                                     email.
                                 </p>
-                                <div class="footer-newsletter">
+                                <div class="footer-Contact Us">
                                     <form action="#">
                                         <input type="email" name="email" placeholder="Email*" />
                                         <div class="btn-wrapper">

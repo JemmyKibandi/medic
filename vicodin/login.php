@@ -25,7 +25,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Place favicon.png in the root directory -->
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/Cullen Logo-02.png" type="image/x-icon" />
     <!-- Font Icons css -->
     <link rel="stylesheet" href="css/font-icons.css" />
     <!-- plugins css -->
@@ -265,7 +265,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                         <li>
                             <a href="#">About</a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="about.php">About</a></li>
                                 <li><a href="service.html">Services</a></li>
                                 <li><a href="service-details.html">Service Details</a></li>
                                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -317,7 +317,7 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
                         <li>
                             <a href="#">Pages</a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="about.php">About</a></li>
                                 <li><a href="service.html">Services</a></li>
                                 <li><a href="service-details.html">Service Details</a></li>
                                 <li><a href="portfolio.html">Portfolio</a></li>

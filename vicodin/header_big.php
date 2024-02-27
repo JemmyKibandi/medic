@@ -36,7 +36,7 @@
                                         <a href="index.php">Home</a>
                                     </li>
                                     <li class="menu-icon">
-                                        <a href="#">About Us</a>
+                                        <a href="about.php">About Us</a>
                                     </li>
                                     <li class="menu-icon">
                                         <a href="#">Products</a>
