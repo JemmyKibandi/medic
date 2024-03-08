@@ -46,7 +46,6 @@ if (isset($_COOKIE['CULLENMEDICALSHOP2024'])) {
         <!-- HEADER AREA END -->
         <!-- Utilize Mobile Menu Start -->
         <?php include_once('../vicodin/header_mobile.php');?>
-        <!-- Utilize Mobile Menu End -->
 
         <div class="ltn__utilize-overlay"></div>
         <!-- BREADCRUMB AREA START -->
